@@ -1,0 +1,210 @@
+// ── Identity ───────────────────────────────────────────────────────
+export const identity = {
+  name: "Praveen Singh",
+  initials: "PS",
+  headline: "Full-Stack Developer",
+  subheadline:
+    "Python Backend Enthusiast · AWS Certified AI & Cloud Practitioner",
+  tagline: "I build systems that move fast, scale clean, and think smart.",
+  roles: [
+    "Systems Engineer",
+    "Backend Developer",
+    "ML/AI Builder",
+    "Cloud Architect",
+    "Full-Stack Developer",
+  ],
+  education: {
+    institution: "SRM Institute of Science & Technology",
+    degree: "B.Tech — Computer Science Engineering",
+    year: "2023 – 2027",
+    cgpa: "9.22",
+  },
+  stats: [
+    { label: "CGPA", value: "9.22", icon: "🎓", color: "#A78BFA" },
+    { label: "Projects Built", value: "10+", icon: "🚀", color: "#10B981" },
+    { label: "AWS Certified", value: "2×", icon: "☁️", color: "#F59E0B" },
+    { label: "Problems Solved", value: "180+", icon: "⚡", color: "#F43F5E" },
+  ],
+  links: {
+    github: "https://github.com/thepraveenrajput",
+    linkedin: "https://linkedin.com/in/praveen-singh",
+    email: "mailto:workpraveen8@gmail.com",
+    resume: `${import.meta.env.BASE_URL}Praveen_Kumar_Singh.pdf`,
+  },
+};
+
+// ── Skills ─────────────────────────────────────────────────────────
+export const skillCategories = [
+  {
+    label: "Languages",
+    icon: "⌨️",
+    accent: "#A78BFA",
+    skills: [
+      // { name: "Go (Golang)", pct: 85 },
+      { name: "Python", pct: 90 },
+      { name: "C++17", pct: 82 },
+      { name: "JavaScript ES6+", pct: 80 },
+      { name: "SQL", pct: 78 },
+    ],
+  },
+  {
+    label: "Backend",
+    icon: "⚙️",
+    accent: "#10B981",
+    skills: [
+      { name: "FastAPI", pct: 88 },
+      { name: "Node.js", pct: 82 },
+      { name: "Express.js", pct: 80 },
+      { name: "Flask", pct: 85 },
+      { name: "TCP/IP & DPI", pct: 78 },
+    ],
+  },
+  {
+    label: "AI / ML",
+    icon: "🤖",
+    accent: "#F59E0B",
+    skills: [
+      { name: "PyTorch", pct: 84 },
+      { name: "TensorFlow / Lite", pct: 82 },
+      { name: "OpenCV", pct: 80 },
+      { name: "ViT / YOLOv11", pct: 78 },
+      { name: "Scikit-learn", pct: 75 },
+    ],
+  },
+  {
+    label: "Cloud & DevOps",
+    icon: "☁️",
+    accent: "#F43F5E",
+    skills: [
+      { name: "AWS", pct: 85 },
+      { name: "Docker", pct: 82 },
+      { name: "Kubernetes", pct: 72 },
+      { name: "Redis", pct: 75 },
+      { name: "PCAP / Networking", pct: 80 },
+    ],
+  },
+];
+
+export const techCloud = [
+  "Go",
+  "Python",
+  "C++17",
+  "JavaScript",
+  "SQL",
+  "FastAPI",
+  "Node.js",
+  "Express.js",
+  "Flask",
+  "React.js",
+  "Next.js",
+  "Tailwind CSS",
+  "DaisyUI",
+  "PyTorch",
+  "TensorFlow Lite",
+  "OpenCV",
+  "YOLOv11",
+  "ViT",
+  "AWS",
+  "Docker",
+  "Kubernetes",
+  "Redis",
+  "PCAP",
+  "TCP/IP",
+  "gRPC",
+  "WebSockets",
+  "JWT",
+  "REST",
+];
+
+// ── Projects ───────────────────────────────────────────────────────
+export const projects = [
+  {
+    id: 1,
+    title: "DPI Engine",
+    alias: "Deep Packet Inspection System",
+    icon: "🔬",
+    badge: "Systems · C++17",
+    accent: "#F43F5E",
+    bg: "from-rose-500/10 to-purple-600/10",
+    tech: ["C++17", "Multithreading", "PCAP", "TCP/IP", "TLS", "STL"],
+    tagline: "Network traffic analysis at the packet level.",
+    bullets: [
+      "Parsed Ethernet, IPv4, TCP & UDP headers to extract five-tuple identifiers with stateful flow tracking.",
+      "Implemented TLS Client Hello inspection to extract SNI for HTTPS traffic classification and domain filtering.",
+      "Designed a multi-threaded pipeline with Load Balancer & Fast Path workers, thread-safe producer-consumer queues, and consistent hashing.",
+    ],
+    github: "https://github.com/thepraveenrajput",
+    live: null,
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Smart Waste Segregation",
+    alias: "AI-Powered Edge ML System",
+    icon: "♻️",
+    badge: "AI/ML · Edge",
+    accent: "#10B981",
+    bg: "from-emerald-500/10 to-teal-600/10",
+    tech: [
+      "PyTorch",
+      "TensorFlow Lite",
+      "OpenCV",
+      "YOLOv11",
+      "ViT",
+      "Raspberry Pi",
+    ],
+    tagline: "98% accuracy waste sorter deployed on edge hardware.",
+    bullets: [
+      "Trained ViT, YOLOv11, EfficientDet-Lite0 & custom CNN on a 6,156-image, 13-class dataset — 98% accuracy.",
+      "Improved precision by 15% via data augmentation; deployed .tflite & .pth models on Raspberry Pi 4B with sub-second inference.",
+      "Integrated Pi Camera and servo motor for automated sorting, reducing manual effort by 60%.",
+    ],
+    github: "https://github.com/thepraveenrajput",
+    live: null,
+    featured: false,
+  },
+  {
+    id: 3,
+    title: "Movie Recommendation System",
+    alias: "Content-Based ML Engine",
+    icon: "🎬",
+    badge: "ML · Flask · Python",
+    accent: "#F59E0B",
+    bg: "from-amber-500/10 to-orange-600/10",
+    tech: [
+      "Python",
+      "Flask",
+      "TF-IDF",
+      "Cosine Similarity",
+      "Pandas",
+      "Pickle",
+    ],
+    tagline: "Personalized recommendations with real-time Flask APIs.",
+    bullets: [
+      "Built content-based recommender using TF-IDF vectorization + cosine similarity for personalized suggestions.",
+      "Engineered movie metadata features with Pandas to construct efficient similarity matrices.",
+      "Served via RESTful Flask APIs; serialized models with pickle to cut inference latency.",
+    ],
+    github: "https://github.com/thepraveenrajput",
+    live: null,
+    featured: false,
+  },
+];
+
+// ── Certifications ─────────────────────────────────────────────────
+export const certifications = [
+  {
+    title: "AWS Certified AI Practitioner",
+    issuer: "Amazon Web Services",
+    year: "2024",
+    icon: "🤖",
+    accent: "#F59E0B",
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    year: "2024",
+    icon: "☁️",
+    accent: "#A78BFA",
+  },
+];
