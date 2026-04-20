@@ -196,14 +196,14 @@ export const certifications = [
   {
     title: "AWS Certified AI Practitioner",
     issuer: "Amazon Web Services",
-    year: "2024",
+    year: "2026",
     icon: "🤖",
     accent: "#F59E0B",
   },
   {
     title: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
-    year: "2024",
+    year: "2026",
     icon: "☁️",
     accent: "#A78BFA",
   },
