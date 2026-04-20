@@ -6,10 +6,10 @@ export default function Footer() {
           <span className="w-5 h-5 rounded bg-gradient-to-br from-violet to-violet-dim flex items-center justify-center font-display font-black text-[10px] text-white">P</span>
           <span className="font-mono text-xs">Praveen Singh</span>
         </div>
-        <p className="font-mono text-xs">
+        {/* <p className="font-mono text-xs">
           React · Vite · Tailwind · DaisyUI · framer-motion
-        </p>
-        <p className="font-mono text-xs">{new Date().getFullYear()}</p>
+        </p> */}
+        <p className="font-mono text-xs">© {new Date().getFullYear()} Praveen Singh</p>
       </div>
     </footer>
   )

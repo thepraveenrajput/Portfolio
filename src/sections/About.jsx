@@ -83,7 +83,7 @@ export default function About() {
             <div className="flex flex-col gap-2">
               {[
                 { label: 'GitHub', href: identity.links.github, icon: '🐙', desc: 'thepraveenrajput' },
-                { label: 'LinkedIn', href: identity.links.linkedin, icon: '💼', desc: 'praveen-singh' },
+                { label: 'LinkedIn', href: identity.links.linkedin, icon: '💼', desc: 'praveen-singh-dev' },
                 { label: 'Email', href: identity.links.email, icon: '✉️', desc: 'Send a message' },
               ].map(l => (
                 <a key={l.label} href={l.href}

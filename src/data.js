@@ -27,7 +27,7 @@ export const identity = {
   ],
   links: {
     github: "https://github.com/thepraveenrajput",
-    linkedin: "https://linkedin.com/in/praveen-singh",
+    linkedin: "https://www.linkedin.com/in/praveen-singh-dev",
     email: "mailto:workpraveen8@gmail.com",
     resume: `${import.meta.env.BASE_URL}Praveen_Kumar_Singh.pdf`,
   },
